@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Pacifico&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/blue-cafe-icon.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blue Cafe</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <div class="header__content container">
+        <a class="header__logo" href="#">
+          <img src="./images/blue-cafe-logo.png" alt="" />
+          <p class="header__logo-name">Blue Cafe</p>
+        </a>
+        <nav class="header__links">
+          <a class="header__link current" href="#home">Home</a>
+          <a class="header__link" href="#menu">Menu</a>
+          <a class="header__link" href="#services">Services</a>
+          <a class="header__link" href="#about">About Us</a>
+          <a class="header__link" href="#contact">Contact</a>
+        </nav>
+        <div class="header__hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <div class="hero__content container">
+        <div class="hero__text">
+          <h1 class="clr-white">Good days start with <span>Coffee</span></h1>
+          <p class="hero__desc p-xl clr-white">
+            Coffee, Cakes and Comfort Food. Blue Cafe is located at the heart of
+            Catanduanes, Virac Town Center -- offering you a Manila Cafe exp
+          </p>
+          <a class="button" href="#menu">Order Now</a>
+        </div>
+        <div class="hero__image">
+          <img src="./images/illustration.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+      <div class="menu__content container">
+        <p class="p-xl">MENU</p>
+        <h2 class="clr-blue">Simple. Classic. Delicious.</h2>
+        <div class="menu__flex">
+          <div class="menu__flex-item">
+            <img src="./images/coffee.jpg" alt="" />
+            <div class="overlay"></div>
+            <h3 class="clr-white">Coffee</h3>
+          </div>
+          <div class="menu__flex-item">
+            <img src="./images/cake.jpg" alt="" />
+            <div class="overlay"></div>
+            <h3 class="clr-white">Cakes</h3>
+          </div>
+          <div class="menu__flex-item">
+            <img src="./images/cookies.jpg" alt="" />
+            <div class="overlay"></div>
+            <h3 class="clr-white">Cookies</h3>
+          </div>
+          <div class="menu__flex-item">
+            <img src="./images/entrees.jpg" alt="" />
+            <div class="overlay"></div>
+            <h3 class="clr-white">Entrees</h3>
+          </div>
+        </div>
+        <div class="menu-modal">
+          <div class="modal__inner">
+            <p class="title">Coming Soon...</p>
+            <button class="ok-modal-menu">OK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+      <div class="services__content container">
+        <p class="p-xl">SERVICES</p>
+        <h2 class="clr-white">What We Offer</h2>
+        <div class="services__card-container">
+          <div class="services__card">
+            <div class="services__text">
+              <h3>Events and Gatherings</h3>
+              <p>
+                The perfect venue for events and gatherings. Whether it's a
+                birthday party, a business meeting, or a casual get-together,
+                our cozy space and talented baristas will ensure a memorable
+                experience. We offer tailored menus, flexible booking options,
+                and a warm ambiance. Let us make your event special. Message us
+                for your inquiries and we can arrange it for you!
+              </p>
+              <a class="button" href="#contact">Contact Us</a>
+            </div>
+            <div class="services__image">
+              <img src="./images/events.jpg" alt="" />
+            </div>
+          </div>
+          <div class="services__card">
+            <div class="services__text">
+              <h3>Delivery</h3>
+              <p>
+                Bringing your favorite coffees, pastries, and treats directly to
+                your doorstep. Whether you're starting your day with a freshly
+                brewed latte or indulging in a mid-afternoon snack, we've got
+                you covered. Enjoy the taste of our cafe in the comfort of your
+                own home, all with the click of a button.
+              </p>
+              <a class="button" href="#menu">Order Now</a>
+            </div>
+            <div class="services__image">
+              <img src="./images/delivery.jpg" alt="" />
+            </div>
+          </div>
+          <div class="services__card">
+            <div class="services__text">
+              <h3>Local Activities</h3>
+              <p>
+                Step into our cafe, where we go beyond great coffee and
+                delicious snacks to offer a space that encourages
+                extracurricular activities and local engagement. Our cafe isn't
+                just about sipping your favorite brew; it's a community hub for
+                exploring interests and connecting with fellow locals.
+              </p>
+              <a class="button" href="#contact">Contact Us</a>
+            </div>
+            <div class="services__image">
+              <img src="./images/extracurricular.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="about__content container">
+        <p class="p-xl">ABOUT US</p>
+        <h2 class="clr-blue">Who We Are</h2>
+        <div class="about__row">
+          <div class="about__image">
+            <img src="./images/about us.jpg" alt="" />
+          </div>
+          <p class="about__desc">
+            At Blue Cafe, we're more than just your neighborhood coffee shop;
+            we're a haven for those who appreciate the finer things in life.
+            Situated at the heart of the community, our cafe is a serene escape
+            from the hustle and bustle, where quality meets comfort.
+            <br />
+            <br />
+            Our journey began with a simple vision: to provide a place where
+            people can unwind, connect, and savor the pleasures of life. With
+            every cup of coffee we serve, we aim to deliver a little moment of
+            bliss, a pause in your busy day, and a chance to appreciate the art
+            of a perfectly brewed beverage. <br />
+            <br />
+            What truly sets Blue Cafe apart is our dedication to fostering a
+            sense of community. We host events, from live music nights to art
+            exhibitions, and we invite local talents to shine on our stage. Our
+            cafe is a platform for connections, creativity, and conversation.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+      <div class="contact__content container">
+        <p class="p-xl">CONTACT</p>
+        <h2 class="clr-white">Inquire Now</h2>
+        <div class="contact__card">
+          <div class="contact__form">
+            <form action="/">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" />
+                <p class="error-message"></p>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Your Email" />
+                <p class="error-message"></p>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your message here"
+                ></textarea>
+                <p class="error-message"></p>
+              </div>
+              <input class="button" type="submit" value="Submit" />
+            </form>
+          </div>
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1939.1315080822305!2d124.22813753541332!3d13.58073628054443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a016c51ea14b77%3A0xa94b09e18501b15!2sBlue%20Cafe!5e0!3m2!1sen!2sph!4v1698179318752!5m2!1sen!2sph"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="contact-modal">
+          <div class="modal__inner">
+            <i class="fa-solid fa-circle-check"></i>
+            <p class="title">Thank You!</p>
+            <p class="desc">
+              Your message has been successfully submitted. Thanks!
+            </p>
+            <button class="ok-modal-contact">OK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="footer__content container">
+        <div class="footer__about">
+          <a class="footer__logo" href="#">
+            <img src="./images/blue-cafe-logo.png" alt="" />
+            <p class="footer__logo-name">Blue Cafe</p>
+          </a>
+          <p>
+            At Blue Cafe, we're more than coffee; we're a community of moments.
+            Join us for a memorable experience.
+          </p>
+        </div>
+        <div class="footer__contact">
+          <p class="p-xl">Contact</p>
+          <p class="footer__row">
+            <i class="fa-solid fa-location-dot"></i>
+            San Roque (Pob.), Virac, Catanduanes, Philippines vtc metrowalk
+          </p>
+          <p class="footer__row">
+            <i class="fa-solid fa-envelope"></i>
+            bluecafevirac@gmail.com
+          </p>
+          <p class="footer__row">
+            <i class="fa-solid fa-phone"></i>
+            +63909 725 8577
+          </p>
+        </div>
+        <div class="footer__links">
+          <p class="p-xl">Links</p>
+          <nav class="footer__nav">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer__socials">
+          <div class="ai-sb">
+            <div class="socials">
+              <a href="https://www.facebook.com/viracbluecafe"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="footer__credits">
+              Made with <span style="color: red">&#10084;</span> by Andrew
+              Mendez
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
