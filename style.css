@@ -503,7 +503,7 @@ h3 {
 }
 
 .footer__logo {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     flex-shrink: 0;
     gap: .5rem;
